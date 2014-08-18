@@ -1,10 +1,10 @@
 <?php
 /* Plugin Name: Page Animations And Transitions
 Description: Page Animations And Transition is provide multiple Animation effect to your WordPress site. Show your page with stylish transition. 
-Version: 1.0
+Version: 1.1
 Author: weblizar
 Author URI: http://weblizar.com
-Plugin URI: 
+Plugin URI: http://weblizar.com
 */
 
 // Translate all text & labels of plugin
@@ -48,6 +48,8 @@ function pagr_anim_admin_enqueue_script() {
 	wp_enqueue_style('weblizar-option-style-google', WL_Page_Ainm_URI .'/css/weblizar-option-style.css');
 	wp_enqueue_style('op-bootstrap-google', WL_Page_Ainm_URI. '/css/bootstrap.css');
 	wp_enqueue_style('weblizar-bootstrap-responsive-google', WL_Page_Ainm_URI .'/css/bootstrap-responsive.css');
+	wp_enqueue_style('font-awesome-op', '//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
+	
 	//wp_enqueue_style('Respo-pricing-table-google', WL_Page_Ainm_URI .'/css/pricing-table-responsive.css');
 	wp_enqueue_style('pricing-table-google', WL_Page_Ainm_URI .'/css/pricing-table.css');
 	
@@ -70,7 +72,7 @@ function display_page_anim_setting_page()
 				<h2><span><?php _e('Page Animations & Transitions','weblizar'); ?></span></h2>			
 				<div class="weblizar-submenu-links" id="weblizar-submenu-links">
 					<ul>
-						<li class=""> <img src="<?php echo WL_Page_Ainm_URI.'/images/star_PNG1590.png';?>"/> <a href="#" target="_blank" title="Support Forum"><?php _e('Rate Us On WordPress','weblizar'); ?></a></li>
+						<li class=""> <img src="<?php echo WL_Page_Ainm_URI.'/images/star_PNG1590.png';?>"/> <a href="http://wordpress.org/plugins/page-animations-and-transitions/" target="_blank" title="Support Forum"><?php _e('Rate Us On WordPress','weblizar'); ?></a></li>
 						</ul>
 				</div>			
 			</div>		
@@ -78,7 +80,7 @@ function display_page_anim_setting_page()
 				<div id="options_tabs" class="ui-tabs ">
 					<ul class="options_tabs ui-tabs-nav" role="tablist" id="nav">					
 						<li class="active"><a href="#" id="general"><div class="dashicons dashicons-admin-home"></div><?php _e('Page Animations','weblizar');?></a></li>					
-						<!--<li ><a href="#" id="ourproduct" style="background-color: #141414;color: #F8F3F3;" ><div class="dashicons dashicons-plus"></div><?php _e('More Products','weblizar');?></a></li>-->
+						<li ><a href="#" id="ourproduct" style="background-color: #F8504B;color: #F8F3F3;" ><div class="dashicons dashicons-plus"></div><?php _e('More Products','weblizar');?></a></li>
 					</ul>					
 					<?php require_once('option-settings.php'); ?>	
 				</div>		

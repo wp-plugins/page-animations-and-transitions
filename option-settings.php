@@ -122,6 +122,7 @@ width:100%;
 	
 </div>
 <!---------------- footer customization Settings form ------------------------>
+<link rel='stylesheet'   href='http://demo.weblizar.com/green-lantern-premium/wp-content/themes/green-lantern-premium/css/font-awesome-ie7.css?ver=3.9.2' type='text/css' media='all' />
 <div class="block ui-tabs-panel deactive" id="option-ourproduct" >
 	<div class="row-fluid pricing-table pricing-three-column">
 	<div class="plan-name centre"> 
