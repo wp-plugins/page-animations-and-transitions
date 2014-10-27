@@ -1,7 +1,7 @@
 <?php
 /* Plugin Name: Page Animations And Transitions
 Description: Page Animations And Transition is provide multiple Animation effect to your WordPress site. Show your page with stylish transition. 
-Version: 1.2
+Version: 1.3
 Author: weblizar
 Author URI: http://weblizar.com
 Plugin URI: http://weblizar.com
@@ -27,12 +27,12 @@ function weblizar_page_anim_activate() {
 }
 register_activation_hook( __FILE__, 'weblizar_page_anim_activate' );
 
-// Admin dashboard Menu Pages For Google Plus Badge Widget Plugin
+// Admin dashboard Menu Pages For Page animation and transition
 add_action('admin_menu','weblizar_page_anim_widget_menu');
 function weblizar_page_anim_widget_menu() {
-    //Main menu of Google Plus Badge Widget Plugin
+    //Main menu of Page animation and transition
     $menu = add_menu_page('Page Animation And Transition', __('Page Animations', 'weblizar'), 'administrator', 'weblizar-page-animation', '','dashicons-admin-page');
-    // Google widget settings page
+    // Page Animation settings page
     $SubMenu1 = add_submenu_page( 'weblizar-page-animation', 'Page Animation Settings', __('Page Animation Settings', 'weblizar'), 'administrator', 'weblizar-page-animation', 'display_page_anim_setting_page' );
    
 	add_action('admin_print_styles-'.$menu, 'pagr_anim_admin_enqueue_script');
@@ -49,8 +49,6 @@ function pagr_anim_admin_enqueue_script() {
 	wp_enqueue_style('op-bootstrap-google', WL_Page_Ainm_URI. '/css/bootstrap.css');
 	wp_enqueue_style('weblizar-bootstrap-responsive-google', WL_Page_Ainm_URI .'/css/bootstrap-responsive.css');
 	wp_enqueue_style('font-awesome-op', '//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
-	
-	//wp_enqueue_style('Respo-pricing-table-google', WL_Page_Ainm_URI .'/css/pricing-table-responsive.css');
 	wp_enqueue_style('pricing-table-google', WL_Page_Ainm_URI .'/css/pricing-table.css');
 	
 }
