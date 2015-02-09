@@ -1,10 +1,10 @@
 === Page Animations And Transitions ===
 Contributors: weblizar
 Creator website link: http://weblizar.com/
-Tags:  animate, animations, css3, effects, fade, flip, jquery, Page transitions, rotate, smooth, transition, ui, zoom, animation, transitions, page animations, page animation, wordpress animations, wordpress transitions, css, css3, html5, css animation, fade up, fade in, fade down, zoom, zoom animations, rotate animations, plugins, fade left, fade right, flip page, smooth animations, wordpress site animations, website animations, website transitions , page effects, social, content animations, content, slider, theme animation, theme, theme transitions, flash animation, flash, flash transitions, post, page, post animations, jquery animations, button, button animations, cms, code animation, code, admin, free     
-Requires at least: 3.0
-Tested up to: 4.0
-Stable tag: 1.4
+Tags:  animate, animations, css3, effects, fade, flip, jquery, Page transitions, rotate, smooth, transition, ui, zoom, animation, transitions, page animations, page animation, wordpress animations, wordpress transitions, css, css3, html5, css animation, fade up, fade in, fade down, zoom, zoom animations, rotate animations, plugins, fade left, fade right, flip page, smooth animations, wordpress site animations, website animations, website transitions , page effects, social, content animations, content, slider, theme animation, theme, theme transitions, flash animation, flash, flash transitions, post, page, post animations, jquery animations, button, button animations, cms, code animation, code, admin, free, wordpress animation    
+Requires at least: 3.3
+Tested up to: 4.1
+Stable tag: 1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -50,6 +50,11 @@ This section describes how to install the plugin and get it working.
 
 
 == Changelog ==
+
+= 1.5 =
+
+* Compatible with WordPress 4.1 version.
+* Removed input, field set css form bootstrap file
 
 = 1.4 =
 
