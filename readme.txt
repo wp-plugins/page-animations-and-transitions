@@ -3,8 +3,8 @@ Contributors: weblizar
 Creator website link: http://weblizar.com/
 Tags:  animate, animations, css3, effects, fade, flip, jquery, Page transitions, rotate, smooth, transition, ui, zoom, animation, transitions, page animations, page animation, wordpress animations, wordpress transitions, css, css3, html5, css animation, fade up, fade in, fade down, zoom, zoom animations, rotate animations, plugins, fade left, fade right, flip page, smooth animations, wordpress site animations, website animations, website transitions , page effects, social, content animations, content, slider, theme animation, theme, theme transitions, flash animation, flash, flash transitions, post, page, post animations, jquery animations, button, button animations, cms, code animation, code, admin, free, wordpress animation    
 Requires at least: 3.3
-Tested up to: 4.1
-Stable tag: 1.5
+Tested up to: 4.2
+Stable tag: 1.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -50,6 +50,9 @@ This section describes how to install the plugin and get it working.
 
 
 == Changelog ==
+
+= Version 1.6 22-Apr-2015 =
+* New: WordPress 4.2 Compatible
 
 = 1.5 =
 
